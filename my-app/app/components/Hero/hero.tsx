@@ -17,6 +17,14 @@ const Hero = () => {
                 handleClick={handleScroll}
                 />
             </div>
+            <div className="hero__image-conatiner">
+                <div className="her__image">
+                    <Image 
+                    src =""/>
+
+                </div>
+
+            </div>
         </div>
     );
 };

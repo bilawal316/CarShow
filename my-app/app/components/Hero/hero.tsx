@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="hero">
             <div className="flex-1 pt-36 padding-x">
                 <h1 className="hero__title"> Find, book, or reant a car -- quickly and easily!</h1>
-                <p className="her__subtitle"> Streamline your car renral experience with our effortless boking process. </p>
+                <p className="hero__subtitle"> Streamline your car renral experience with our effortless boking process. </p>
                 <CustomButton 
                 title= "Explore Cars"
                 containerStyles="bg-primary-blue
@@ -17,11 +17,13 @@ const Hero = () => {
                 handleClick={handleScroll}
                 />
             </div>
-            <div className="hero__image-conatiner">
-                <div className="her__image">
+            <div className="hero__image-container">
+                <div className="hero__image">
                     <Image 
-                    src =""/>
-
+                    src ="/hero.png"
+                    alt="hero page image"
+                    fill className="object-contain"/>
+                    <div className="hero__image-overlay"/>
                 </div>
 
             </div>

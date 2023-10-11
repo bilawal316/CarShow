@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const CustomFilter = () => {
   return (
     <div>
@@ -8,4 +9,4 @@ const CustomFilter = () => {
   )
 }
 
-export default CustomFilter
+export default CustomFilter;
